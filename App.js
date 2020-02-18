@@ -166,13 +166,13 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F23657",
+    backgroundColor: "#48ADFF",
     alignItems: "center"
   },
   title: {
     color: "white",
     fontSize: 30,
-    marginTop: 50,
+    marginTop: 80,
     fontWeight: "200",
     marginBottom: 30
   },

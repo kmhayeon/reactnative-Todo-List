@@ -16,7 +16,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#48ADFF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,7 +25,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.hytodolist.hy",
+      "supportsTablet": true,
+    },
+    "android": {
+      "package": "com.hytodolist.hy"
     }
   }
 }
